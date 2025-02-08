@@ -313,9 +313,9 @@ class _DetailsWidgetState extends State<DetailsWidget> {
                                     ));
                                     _model.editingMode = false;
                                     safeSetState(() {});
-                                  } else {
-                                    return;
                                   }
+
+                                  context.pushNamed('tasks');
                                 },
                                 text: 'Update Task',
                                 options: FFButtonOptions(
