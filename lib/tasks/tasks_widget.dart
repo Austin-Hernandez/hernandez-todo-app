@@ -4,6 +4,7 @@ import '/components/add_task_widget.dart';
 import '/components/task_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'tasks_model.dart';
 export 'tasks_model.dart';
@@ -189,6 +190,36 @@ class _TasksWidgetState extends State<TasksWidget> {
                           },
                         );
                       },
+                    ),
+                  ),
+                  Padding(
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
+                    child: FFButtonWidget(
+                      onPressed: () async {
+                        context.pushNamed('login');
+                      },
+                      text: 'Log Out',
+                      options: FFButtonOptions(
+                        height: 70.0,
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            16.0, 0.0, 16.0, 0.0),
+                        iconPadding:
+                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                        color: FlutterFlowTheme.of(context).primary,
+                        textStyle: FlutterFlowTheme.of(context)
+                            .labelMedium
+                            .override(
+                              fontFamily: 'Inter',
+                              color: FlutterFlowTheme.of(context).primaryText,
+                              letterSpacing: 0.0,
+                            ),
+                        elevation: 0.0,
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.of(context).primaryText,
+                        ),
+                        borderRadius: BorderRadius.circular(24.0),
+                      ),
                     ),
                   ),
                 ].divide(const SizedBox(height: 12.0)),
