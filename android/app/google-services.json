@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1026435471305",
+    "project_id": "hernandez-to-do-app-t4w47e",
+    "storage_bucket": "hernandez-to-do-app-t4w47e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026435471305:android:69e492a01c9d349fd2ba18",
+        "android_client_info": {
+          "package_name": "com.mycompany.hernandeztodoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr9UlpTkgLjgsYKuYABlS1vdcPW2jV-G0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
